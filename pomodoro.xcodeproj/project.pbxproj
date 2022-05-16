@@ -51,6 +51,9 @@
 		144300212832953200EFD034 /* pomodoro */ = {
 			isa = PBXGroup;
 			children = (
+				14430032283299DE00EFD034 /* Core */,
+				14430031283299D300EFD034 /* Models */,
+				14430030283299C600EFD034 /* Extensions */,
 				144300222832953200EFD034 /* pomodoroApp.swift */,
 				144300242832953200EFD034 /* ContentView.swift */,
 				144300262832953300EFD034 /* Assets.xcassets */,
@@ -65,6 +68,43 @@
 				144300292832953300EFD034 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14430030283299C600EFD034 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		14430031283299D300EFD034 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14430032283299DE00EFD034 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				14430034283299EF00EFD034 /* View */,
+				14430033283299E400EFD034 /* ViewModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		14430033283299E400EFD034 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14430034283299EF00EFD034 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
