@@ -12,6 +12,8 @@
 		144300272832953300EFD034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144300262832953300EFD034 /* Assets.xcassets */; };
 		1443002A2832953300EFD034 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144300292832953300EFD034 /* Preview Assets.xcassets */; };
 		1443003628329FEE00EFD034 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443003528329FEE00EFD034 /* MainView.swift */; };
+		144300392833EB0800EFD034 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144300382833EB0800EFD034 /* MainTabView.swift */; };
+		1443003D2833EE0800EFD034 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443003C2833EE0800EFD034 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		144300262832953300EFD034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		144300292832953300EFD034 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1443003528329FEE00EFD034 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		144300382833EB0800EFD034 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1443003C2833EE0800EFD034 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		14430032283299DE00EFD034 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				1443003A2833EDF500EFD034 /* Profile */,
+				144300372833EAD600EFD034 /* MainTab */,
 				14430034283299EF00EFD034 /* View */,
 				14430033283299E400EFD034 /* ViewModel */,
 			);
@@ -108,6 +114,22 @@
 				1443003528329FEE00EFD034 /* MainView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		144300372833EAD600EFD034 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				144300382833EB0800EFD034 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		1443003A2833EDF500EFD034 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1443003C2833EE0800EFD034 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +204,9 @@
 			files = (
 				144300252832953200EFD034 /* ContentView.swift in Sources */,
 				1443003628329FEE00EFD034 /* MainView.swift in Sources */,
+				1443003D2833EE0800EFD034 /* ProfileView.swift in Sources */,
 				144300232832953200EFD034 /* pomodoroApp.swift in Sources */,
+				144300392833EB0800EFD034 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
