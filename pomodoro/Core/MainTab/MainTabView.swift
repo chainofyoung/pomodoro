@@ -1,10 +1,3 @@
-//
-//  MainTabView.swift
-//  pomodoro
-//
-//  Created by 최인영 on 2022/05/17.
-//
-
 import SwiftUI
 
 struct MainTabView: View {
@@ -34,13 +27,7 @@ struct MainTabView: View {
                 .tabItem{
                     Image(systemName: "bell")
                 }.tag(1)
-            ProfileView()
-                .onTapGesture{
-                    self.selectedIndex = 1
-                }
-                .tabItem{
-                    Image(systemName: "bell")
-                }.tag(1)
+       
         }
         
     }
