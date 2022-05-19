@@ -14,6 +14,7 @@
 		1443003628329FEE00EFD034 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443003528329FEE00EFD034 /* MainView.swift */; };
 		144300392833EB0800EFD034 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144300382833EB0800EFD034 /* MainTabView.swift */; };
 		1443003D2833EE0800EFD034 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443003C2833EE0800EFD034 /* ProfileView.swift */; };
+		14430040283690CD00EFD034 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443003F283690CD00EFD034 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1443003528329FEE00EFD034 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		144300382833EB0800EFD034 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		1443003C2833EE0800EFD034 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1443003F283690CD00EFD034 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		14430032283299DE00EFD034 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				1443003E283690B900EFD034 /* Timer */,
 				1443003A2833EDF500EFD034 /* Profile */,
 				144300372833EAD600EFD034 /* MainTab */,
 				14430034283299EF00EFD034 /* View */,
@@ -130,6 +133,14 @@
 				1443003C2833EE0800EFD034 /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		1443003E283690B900EFD034 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				1443003F283690CD00EFD034 /* TimerView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14430040283690CD00EFD034 /* TimerView.swift in Sources */,
 				144300252832953200EFD034 /* ContentView.swift in Sources */,
 				1443003628329FEE00EFD034 /* MainView.swift in Sources */,
 				1443003D2833EE0800EFD034 /* ProfileView.swift in Sources */,
