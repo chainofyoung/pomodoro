@@ -24,6 +24,15 @@ struct TimerView: View {
                 }
                 .font(.system(size: 80 , weight: .bold))
                 .opacity(0.80)
+            
+            HStack(spacing:30){
+                Button("START"){
+                    timerRunning = true
+                }
+                Button("RESET"){
+                    countDownTimer = 5
+                }.foregroundColor(.red)
+            }
         }
     }
 }
